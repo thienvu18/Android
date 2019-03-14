@@ -11,7 +11,7 @@ import android.widget.*;
 import java.util.Calendar;
 import java.util.TimeZone;
 
-public class MainActivity extends Activity implements View.OnClickListener, DatePickerDialog.OnDateSetListener {
+public class SignUp extends Activity implements View.OnClickListener, DatePickerDialog.OnDateSetListener {
 
     private EditText et_username;
     private EditText et_password;
