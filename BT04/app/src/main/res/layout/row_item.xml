@@ -4,23 +4,23 @@
               android:layout_height="match_parent">
 
     <ImageView
-            android:layout_width="145dp"
-            android:layout_height="wrap_content" app:srcCompat="@mipmap/ic_launcher" android:id="@+id/ivImage1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:srcCompat="@mipmap/ic_launcher" android:id="@+id/ivAvatar1"
             android:layout_weight="1"/>
 
 <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical">
     <TextView
             android:text="TextView"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" android:id="@+id/tvText1" android:layout_weight="1"/>
+            android:layout_height="wrap_content" android:id="@+id/tvName" android:layout_weight="1"/>
     <TextView
             android:text="TextView"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" android:id="@+id/tvText2" android:layout_weight="1"/>
+            android:layout_height="wrap_content" android:id="@+id/tvPhoneNumber" android:layout_weight="1"/>
 </LinearLayout>
 
     <ImageView
-            android:layout_width="145dp"
-            android:layout_height="wrap_content" app:srcCompat="@mipmap/ic_launcher" android:id="@+id/ivImage2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:srcCompat="@mipmap/ic_launcher" android:id="@+id/ivAvatar2"
             android:layout_weight="1"/>
 </LinearLayout>
