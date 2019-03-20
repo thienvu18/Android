@@ -64,7 +64,7 @@ class MyAdapter extends ArrayAdapter<Model> {
         viewHolder.tvName.setText(dataModel.getName());
         viewHolder.tvPhoneNumber.setText(dataModel.getPhoneNumber());
         viewHolder.ivAvatar1.setImageResource(dataModel.getAvatar1Uri());
-        viewHolder.ivAvatar2.setImageResource(dataModel.getAvatar1Uri());
+        viewHolder.ivAvatar2.setImageResource(dataModel.getAvatar2Uri());
 
         return result;
     }
